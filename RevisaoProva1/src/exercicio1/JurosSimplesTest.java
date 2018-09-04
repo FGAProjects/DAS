@@ -12,12 +12,8 @@ import org.junit.runners.Parameterized.Parameters;
 import junit.framework.TestCase;
 
 @RunWith(Parameterized.class)
-@Category(Juros.class)
+@Category(TSTJuros.class)
 public class JurosSimplesTest extends TestCase{
-	
-	/*
-	 * Juros Simples
-	 */
 	
 	@Parameters
 	public static Collection<Object[]> jurosSimples() {
@@ -43,6 +39,6 @@ public class JurosSimplesTest extends TestCase{
 	@Test(timeout=500)
 	public void testCalculaJurosSimples() {
 		
-		assertEquals(juros, Calculo.jurosSimples(capital, taxa, tempo));
+		assertEquals(juros, CalculoJuros.jurosSimples(capital, taxa, tempo));
 	}
 }

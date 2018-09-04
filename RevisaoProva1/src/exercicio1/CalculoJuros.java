@@ -1,8 +1,8 @@
 package exercicio1;
 
-public class Calculo {
+public class CalculoJuros {
 	
-	public Calculo() {
+	public CalculoJuros() {
 		
 	}
 	
