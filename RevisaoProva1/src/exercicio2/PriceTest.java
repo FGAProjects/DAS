@@ -37,7 +37,7 @@ public class PriceTest extends TestCase {
 	}
 	
 	@Test(timeout=500)
-	public void testCalculaPrice() {
+	public void testCalculaPrice() throws NumberFormatException {
 		
 		assertEquals(amortizacao, CalculoPrice.calculaPrice(capital, taxa, tempo));
 	}

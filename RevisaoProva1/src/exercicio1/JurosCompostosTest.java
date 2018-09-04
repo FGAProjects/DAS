@@ -37,7 +37,7 @@ public class JurosCompostosTest extends TestCase{
 	}
 	
 	@Test(timeout=500)
-	public void testCalculaJurosCompostos() {
+	public void testCalculaJurosCompostos() throws NumberFormatException {
 		
 		assertEquals(juros, CalculoJuros.jurosCompostos(capital, taxa, tempo));
 	}
