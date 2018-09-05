@@ -1,9 +1,10 @@
 package exercicio1;
 
+import org.junit.experimental.categories.Categories;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-@RunWith(Suite.class)
+@RunWith(Categories.class)
 @Suite.SuiteClasses({
 	JurosSimplesTest.class,
 	JurosCompostosTest.class

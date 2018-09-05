@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 import org.junit.Test;
-import org.junit.experimental.categories.Category;
+import org.junit.experimental.categories.Categories.IncludeCategory;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
@@ -12,7 +12,8 @@ import org.junit.runners.Parameterized.Parameters;
 import junit.framework.TestCase;
 
 @RunWith(Parameterized.class)
-@Category(TSTJuros.class)
+@IncludeCategory(TSTJuros.class)
+
 public class JurosSimplesTest extends TestCase{
 	
 	@Parameters
