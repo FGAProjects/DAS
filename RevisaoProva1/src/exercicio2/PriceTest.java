@@ -6,13 +6,14 @@ import java.util.Collection;
 import junit.framework.TestCase;
 
 import org.junit.Test;
-import org.junit.experimental.categories.Category;
+import org.junit.experimental.categories.Categories.IncludeCategory;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-@Category(TSTAmortização.class)
+@IncludeCategory(TSTAmortização.class)
+
 public class PriceTest extends TestCase {
 
 	@Parameters
